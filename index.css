@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+
+p {
+  margin: 5rem;
+}
+
+a:link {
+  color: white; 
+}
+
+a:visited {
+  color: white;
+}
+ul {
+  list-style: inside;
+}
+
+h1 {
+  font-size: 10vh;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 4vh;
+  text-align: center;
+}
+
+.section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.block {
+  flex: 1;
+  height: 50vh;
+}
+
+.hcenter {
+  justify-content: center;
+}
+
+.vcenter {
+  align-items: center;
+}
+
+.dark {
+  color: #BAEDD5;
+  background-color: #285352;
+}
+
+.accent {
+  color: white;
+  background-color: #36946F;
+}
+
+.list-container {
+
+}
+
+@media(max-width: 900px) {
+  h1 {
+    font-size: 10vw;
+  }
+  .section {
+    flex-direction: column;
+  }
+}

@@ -35,6 +35,12 @@ h2 {
   display: flex;
 }
 
+.half-section {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+}
+
 .block {
   flex: 1;
   height: 50vh;
